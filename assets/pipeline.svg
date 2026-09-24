@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',Inter,'Segoe UI',Roboto,sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6d7bff"/>
+      <stop offset="0.55" stop-color="#a86bff"/>
+      <stop offset="1" stop-color="#ff7ab6"/>
+    </linearGradient>
+    <style>
+      .flow { stroke-dasharray: 6 10; animation: run 1s linear infinite; }
+      @keyframes run { to { stroke-dashoffset: -16; } }
+      .dot { animation: go 4s cubic-bezier(.6,0,.4,1) infinite; }
+      @keyframes go { from { transform: translateX(0); } to { transform: translateX(1000px); } }
+      .t { font-size: 17px; font-weight: 700; fill: #f5f6fb; }
+      .s { font-size: 13px; fill: #f5f6fb; fill-opacity: .55; }
+      .k { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; fill: #f5f6fb; fill-opacity: .38; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="199" rx="28" fill="#07080f" stroke="#ffffff" stroke-opacity=".13"/>
+  <text x="40" y="44" class="k">КОНВЕЙЕР · РОЛИК ЗА 10–15 МИНУТ</text>
+
+  <path d="M100 118H1100" stroke="url(#g)" stroke-width="2" class="flow"/>
+  <circle class="dot" cx="100" cy="118" r="6" fill="#5cf2a6"/>
+
+  <g text-anchor="middle">
+    <circle cx="100" cy="118" r="22" fill="#07080f" stroke="#6d7bff" stroke-width="2"/>
+    <text x="100" y="124" font-size="16" font-weight="800" fill="#6d7bff">01</text>
+    <text x="100" y="168" class="t">Сценарий</text>
+
+    <circle cx="300" cy="118" r="22" fill="#07080f" stroke="#8274ff" stroke-width="2"/>
+    <text x="300" y="124" font-size="16" font-weight="800" fill="#8274ff">02</text>
+    <text x="300" y="168" class="t">ИИ-озвучка</text>
+
+    <circle cx="500" cy="118" r="22" fill="#07080f" stroke="#9a6eff" stroke-width="2"/>
+    <text x="500" y="124" font-size="16" font-weight="800" fill="#9a6eff">03</text>
+    <text x="500" y="168" class="t">Позы аватара</text>
+
+    <circle cx="700" cy="118" r="22" fill="#07080f" stroke="#c070e6" stroke-width="2"/>
+    <text x="700" y="124" font-size="16" font-weight="800" fill="#c070e6">04</text>
+    <text x="700" y="168" class="t">Схемы и анимации</text>
+
+    <circle cx="900" cy="118" r="22" fill="#07080f" stroke="#e874c8" stroke-width="2"/>
+    <text x="900" y="124" font-size="16" font-weight="800" fill="#e874c8">05</text>
+    <text x="900" y="168" class="t">Субтитры</text>
+
+    <circle cx="1100" cy="118" r="22" fill="#07080f" stroke="#ff7ab6" stroke-width="2"/>
+    <text x="1100" y="124" font-size="16" font-weight="800" fill="#ff7ab6">06</text>
+    <text x="1100" y="168" class="t">Рендер</text>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',Inter,'Segoe UI',Roboto,sans-serif">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0" stop-color="#6d7bff"/>
+      <stop offset="0.55" stop-color="#a86bff"/>
+      <stop offset="1" stop-color="#ff7ab6"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.18" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#6d7bff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6d7bff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.9" cy="0.95" r="0.55">
+      <stop offset="0" stop-color="#ff7ab6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ff7ab6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="400" rx="28"/></clipPath>
+    <clipPath id="tracks"><rect x="40" y="250" width="1120" height="118" rx="10"/></clipPath>
+    <style>
+      .ph { animation: play 7s linear infinite; }
+      @keyframes play { from { transform: translateX(0); } to { transform: translateX(1120px); } }
+      .rec { animation: blink 1.2s steps(2, start) infinite; }
+      @keyframes blink { to { visibility: hidden; } }
+      .wave rect { animation: eq 1.1s ease-in-out infinite alternate; transform-origin: center; transform-box: fill-box; }
+      @keyframes eq { from { transform: scaleY(0.35); } to { transform: scaleY(1); } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="#07080f"/>
+    <rect width="1200" height="400" fill="url(#glowA)"/>
+    <rect width="1200" height="400" fill="url(#glowB)"/>
+    <rect x="0.5" y="0.5" width="1199" height="399" rx="28" fill="none" stroke="#ffffff" stroke-opacity="0.13"/>
+
+    <!-- viewer header -->
+    <g font-size="13" fill="#f5f6fb" fill-opacity="0.62" letter-spacing="1.5">
+      <circle class="rec" cx="52" cy="42" r="5" fill="#ff4d6d"/>
+      <text x="66" y="47">REC · YOO_PORTFOLIO.PRPROJ</text>
+      <text x="1160" y="47" text-anchor="end">9:16 · 60 FPS · 00:00:15:00</text>
+    </g>
+
+    <!-- title -->
+    <text x="40" y="150" font-size="96" font-weight="800" letter-spacing="-4" fill="url(#grad)">yoo</text>
+    <text x="232" y="150" font-size="96" font-weight="800" letter-spacing="-4" fill="#f5f6fb">— монтаж,</text>
+    <text x="40" y="208" font-size="40" font-weight="600" letter-spacing="-1" fill="#f5f6fb" fill-opacity="0.62">который набирает миллионы</text>
+
+    <!-- timeline -->
+    <rect x="40" y="250" width="1120" height="118" rx="10" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.13"/>
+    <g clip-path="url(#tracks)">
+      <!-- ruler -->
+      <g stroke="#ffffff" stroke-opacity="0.22">
+        <path d="M40 262H1160"/>
+        <path d="M40 250v12M180 250v12M320 250v12M460 250v12M600 250v12M740 250v12M880 250v12M1020 250v12M1160 250v12"/>
+      </g>
+
+      <!-- V1 -->
+      <g font-size="12" font-weight="700" letter-spacing="1">
+        <rect x="48" y="272" width="170" height="34" rx="7" fill="#6d7bff"/>
+        <text x="60" y="294" fill="#07080f">HOOK · 0–2s</text>
+        <rect x="224" y="272" width="250" height="34" rx="7" fill="#8a74ff"/>
+        <text x="236" y="294" fill="#07080f">JUMP CUTS</text>
+        <rect x="480" y="272" width="120" height="34" rx="7" fill="#a86bff"/>
+        <text x="492" y="294" fill="#07080f">ZOOM</text>
+        <rect x="606" y="272" width="290" height="34" rx="7" fill="#d372da"/>
+        <text x="618" y="294" fill="#07080f">KINETIC TYPE</text>
+        <rect x="902" y="272" width="250" height="34" rx="7" fill="#ff7ab6"/>
+        <text x="914" y="294" fill="#07080f">PAYOFF → LOOP</text>
+      </g>
+
+      <!-- A1 waveform -->
+      <rect x="48" y="314" width="1104" height="44" rx="7" fill="#5cf2a6" fill-opacity="0.1" stroke="#5cf2a6" stroke-opacity="0.35"/>
+      <g class="wave" fill="#5cf2a6" fill-opacity="0.8">
+        <rect x="60" y="322" width="4" height="28" rx="2"/>
+        <rect x="100" y="326" width="4" height="20" rx="2" style="animation-delay:-.2s"/>
+        <rect x="140" y="320" width="4" height="32" rx="2" style="animation-delay:-.5s"/>
+        <rect x="180" y="328" width="4" height="16" rx="2" style="animation-delay:-.1s"/>
+        <rect x="220" y="319" width="4" height="34" rx="2" style="animation-delay:-.7s"/>
+        <rect x="260" y="324" width="4" height="24" rx="2" style="animation-delay:-.3s"/>
+        <rect x="300" y="321" width="4" height="30" rx="2" style="animation-delay:-.9s"/>
+        <rect x="340" y="327" width="4" height="18" rx="2" style="animation-delay:-.4s"/>
+        <rect x="380" y="320" width="4" height="32" rx="2" style="animation-delay:-.6s"/>
+        <rect x="420" y="325" width="4" height="22" rx="2" style="animation-delay:-.15s"/>
+        <rect x="460" y="319" width="4" height="34" rx="2" style="animation-delay:-.8s"/>
+        <rect x="500" y="326" width="4" height="20" rx="2" style="animation-delay:-.35s"/>
+        <rect x="540" y="321" width="4" height="30" rx="2" style="animation-delay:-.55s"/>
+        <rect x="580" y="328" width="4" height="16" rx="2" style="animation-delay:-.25s"/>
+        <rect x="620" y="320" width="4" height="32" rx="2" style="animation-delay:-.75s"/>
+        <rect x="660" y="324" width="4" height="24" rx="2" style="animation-delay:-.05s"/>
+        <rect x="700" y="319" width="4" height="34" rx="2" style="animation-delay:-.65s"/>
+        <rect x="740" y="326" width="4" height="20" rx="2" style="animation-delay:-.45s"/>
+        <rect x="780" y="321" width="4" height="30" rx="2" style="animation-delay:-.85s"/>
+        <rect x="820" y="327" width="4" height="18" rx="2" style="animation-delay:-.2s"/>
+        <rect x="860" y="320" width="4" height="32" rx="2" style="animation-delay:-.6s"/>
+        <rect x="900" y="325" width="4" height="22" rx="2" style="animation-delay:-.3s"/>
+        <rect x="940" y="319" width="4" height="34" rx="2" style="animation-delay:-.95s"/>
+        <rect x="980" y="326" width="4" height="20" rx="2" style="animation-delay:-.1s"/>
+        <rect x="1020" y="321" width="4" height="30" rx="2" style="animation-delay:-.5s"/>
+        <rect x="1060" y="328" width="4" height="16" rx="2" style="animation-delay:-.7s"/>
+        <rect x="1100" y="320" width="4" height="32" rx="2" style="animation-delay:-.4s"/>
+        <rect x="1140" y="324" width="4" height="24" rx="2" style="animation-delay:-.25s"/>
+      </g>
+
+      <!-- playhead -->
+      <g class="ph">
+        <path d="M40 250V368" stroke="#f5f6fb" stroke-width="2"/>
+        <path d="M33 250h14l-7 9z" fill="#f5f6fb"/>
+      </g>
+    </g>
+  </g>
+</svg>
