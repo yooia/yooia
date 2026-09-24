@@ -40,7 +40,7 @@
 
     <!-- title -->
     <text x="40" y="150" font-size="96" font-weight="800" letter-spacing="-4" fill="url(#grad)">yoo</text>
-    <text x="232" y="150" font-size="96" font-weight="800" letter-spacing="-4" fill="#f5f6fb">— монтаж,</text>
+    <text x="212" y="150" font-size="96" font-weight="800" letter-spacing="-4" fill="#f5f6fb">— монтаж,</text>
     <text x="40" y="208" font-size="40" font-weight="600" letter-spacing="-1" fill="#f5f6fb" fill-opacity="0.62">который набирает миллионы</text>
 
     <!-- timeline -->

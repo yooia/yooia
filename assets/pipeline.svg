@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',Inter,'Segoe UI',Roboto,sans-serif">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="100" y1="0" x2="1100" y2="0">
       <stop offset="0" stop-color="#6d7bff"/>
       <stop offset="0.55" stop-color="#a86bff"/>
       <stop offset="1" stop-color="#ff7ab6"/>

@@ -6,37 +6,32 @@
       <stop offset="1" stop-color="#ff7ab6"/>
     </linearGradient>
     <style>
-      .c { opacity: 0; animation: up .7s cubic-bezier(.2,.8,.2,1) forwards; }
-      .c:nth-of-type(2) { animation-delay: .12s; }
-      .c:nth-of-type(3) { animation-delay: .24s; }
-      .c:nth-of-type(4) { animation-delay: .36s; }
-      @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
       .n { font-size: 52px; font-weight: 800; letter-spacing: -2px; }
       .l { font-size: 15px; fill: #f5f6fb; fill-opacity: .62; }
     </style>
   </defs>
-  <g class="c">
+  <g>
     <rect x="1" y="1" width="285" height="168" rx="24" fill="#07080f" stroke="#ffffff" stroke-opacity=".13"/>
     <text x="28" y="84" class="n" fill="url(#g)">1.7M</text>
     <text x="28" y="118" class="l">просмотров у одного</text>
     <text x="28" y="140" class="l">ролика в Instagram</text>
   </g>
-  <g class="c">
+  <g>
     <rect x="305" y="1" width="285" height="168" rx="24" fill="#07080f" stroke="#ffffff" stroke-opacity=".13"/>
     <text x="332" y="84" class="n" fill="url(#g)">4.25M</text>
     <text x="332" y="118" class="l">просмотров у двух роликов</text>
     <text x="332" y="140" class="l">для Гоши Карцева</text>
   </g>
-  <g class="c">
+  <g>
     <rect x="609" y="1" width="285" height="168" rx="24" fill="#07080f" stroke="#ffffff" stroke-opacity=".13"/>
     <text x="636" y="84" class="n" fill="url(#g)">1.7M+</text>
     <text x="636" y="118" class="l">суммарная аудитория</text>
     <text x="636" y="140" class="l">клиентов</text>
   </g>
-  <g class="c">
+  <g>
     <rect x="913" y="1" width="285" height="168" rx="24" fill="#07080f" stroke="#ffffff" stroke-opacity=".13"/>
     <text x="940" y="84" class="n" fill="#5cf2a6">10–15</text>
-    <text x="1112" y="84" font-size="22" font-weight="700" fill="#5cf2a6">мин</text>
+    <text x="1100" y="84" font-size="22" font-weight="700" fill="#5cf2a6">мин</text>
     <text x="940" y="118" class="l">на ролик, поставленный</text>
     <text x="940" y="140" class="l">на конвейер</text>
   </g>
