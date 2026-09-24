@@ -1,17 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg"/>
-  <img src="assets/header-light.svg" width="100%" alt="yooia — автоматизация с AI, сайты и Telegram-боты"/>
-</picture>
+<img src="assets/header-dark.svg#gh-dark-mode-only" width="100%" alt="yooia — автоматизация с AI, сайты и Telegram-боты"/>
+<img src="assets/header-light.svg#gh-light-mode-only" width="100%" alt="yooia — автоматизация с AI, сайты и Telegram-боты"/>
 
-<br/>
-
-<a href="https://t.me/yoofake"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/btn-telegram-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="assets/btn-telegram-light.svg"/>
-  <img src="assets/btn-telegram-light.svg" height="44" alt="Telegram"/>
-</picture></a>&nbsp;&nbsp;<a href="https://github.com/yooia/portfolio"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="assets/btn-portfolio-light.svg"/>
-  <img src="assets/btn-portfolio-light.svg" height="44" alt="Портфолио"/>
-</picture></a>
+<p>
+<a href="https://t.me/yoofake"><img src="assets/btn-telegram-dark.svg#gh-dark-mode-only" height="44" alt="Telegram"/><img src="assets/btn-telegram-light.svg#gh-light-mode-only" height="44" alt="Telegram"/></a>&nbsp;&nbsp;<a href="https://github.com/yooia/portfolio"><img src="assets/btn-portfolio-dark.svg#gh-dark-mode-only" height="44" alt="Портфолио"/><img src="assets/btn-portfolio-light.svg#gh-light-mode-only" height="44" alt="Портфолио"/></a>
+</p>
