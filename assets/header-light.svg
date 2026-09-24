@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
+  <style>
+    .k { font: 500 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; letter-spacing: 1px; fill: #818b98; }
+    .h { font-size: 24px; font-weight: 600; fill: #1f2328; }
+    .p { font-size: 17px; fill: #59636e; }
+    .dot { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .25; } }
+  </style>
+  <text x="40" y="40" class="k">YOOIA / 2026</text>
+  <circle class="dot" cx="990" cy="35" r="4" fill="#1a7f37"/>
+  <text x="1160" y="40" text-anchor="end" class="k">ОТКРЫТ К ПРОЕКТАМ</text>
+  <text x="36" y="148" font-size="96" font-weight="600" letter-spacing="-3" fill="#1f2328">yooia</text>
+  <text x="40" y="196" font-size="26" fill="#59636e">Автоматизация с AI, сайты и Telegram-боты</text>
+  <path d="M40 250H380" stroke="#1f2328" stroke-width="1.5"/>
+  <circle cx="53" cy="300" r="13" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+  <text x="380" y="306" text-anchor="end" class="k">01</text>
+  <text x="40" y="366" class="h">AI-автоматизация</text>
+  <text x="40" y="400" class="p">Ставлю контент и рутину на конвейер:</text>
+  <text x="40" y="426" class="p">видео, тексты, обработка данных.</text>
+  <path d="M420 250H760" stroke="#1f2328" stroke-width="1.5"/>
+  <rect x="420" y="287" width="26" height="26" fill="none" stroke="#1f2328" stroke-width="1.5"/>
+  <text x="760" y="306" text-anchor="end" class="k">02</text>
+  <text x="420" y="366" class="h">Сайты</text>
+  <text x="420" y="400" class="p">Лендинги и портфолио. Быстрые,</text>
+  <text x="420" y="426" class="p">аккуратные, с вниманием к деталям.</text>
+  <path d="M800 250H1140" stroke="#1f2328" stroke-width="1.5"/>
+  <path d="M813 286 L828 312 L798 312 Z" fill="none" stroke="#1f2328" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="1140" y="306" text-anchor="end" class="k">03</text>
+  <text x="800" y="366" class="h">Telegram-боты</text>
+  <text x="800" y="400" class="p">Заявки, оплата, рассылки</text>
+  <text x="800" y="426" class="p">и мини-приложения под ключ.</text>
+</svg>
