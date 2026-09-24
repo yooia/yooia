@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://t.me/yoofake"><img src="https://img.shields.io/badge/Telegram-@yoofake-6d7bff?style=for-the-badge&logo=telegram&logoColor=white&labelColor=07080f" alt="Telegram"/></a>
-<a href="https://github.com/yorimp3/portfolio"><img src="https://img.shields.io/badge/Портфолио-смотреть_работы-a86bff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=07080f" alt="Портфолио"/></a>
+<a href="https://github.com/yooia/portfolio"><img src="https://img.shields.io/badge/Портфолио-смотреть_работы-a86bff?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=07080f" alt="Портфолио"/></a>
 <img src="https://img.shields.io/badge/●_открыт_к_проектам-5cf2a6?style=for-the-badge&labelColor=07080f" alt="Открыт к проектам"/>
 
 </div>
@@ -29,7 +29,7 @@
 <td width="50%" valign="top">
 
 **02 · Лендинги и Telegram-боты**<br/>
-Сайты-визитки, продающие страницы и боты под ключ. Этот профиль и [портфолио](https://github.com/yorimp3/portfolio) сделаны так же.
+Сайты-визитки, продающие страницы и боты под ключ. Этот профиль и [портфолио](https://github.com/yooia/portfolio) сделаны так же.
 
 </td>
 </tr>
